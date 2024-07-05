@@ -1,0 +1,209 @@
+Java :
+
+Features of Java :
+
+
+1) Simple 
+
+2) Object Oriented 
+
+Object
+Class
+Encapsulation
+Polymorphism
+Inheritance 
+Abstraction 
+
+3) Robust 
+
+int i=10;
+
+String s="Livetech" 
+
+int j=i+s;
+
+4) Secure 
+
+5) Platform Independent 
+
+
+Platform means OS
+
+
+6) Architectural Neutral 
+
+means Processor + RAM 
+
+7) Portable 
+
+means Architecture (Core Design)
+
+
+
+WORA (Write Once Run Anywhere)
+
+=============================================================
+
+Java  ( JSE   / jdk)
+
+Java Group name (Collection or group of subjects or modeules)
+
+JSE Java Standard Edition  - logical name or Module name
+
+jdk - java development kit ( physical software)
+
+*************************
+jdk installation :
+*************************
+
+https://www.oracle.com/in/java/technologies/downloads/
+
+
+Java 22  (latest)
+ 
+JDK Development Kit 22.0.1 downloads
+
+
+In some projects (Java 17 is used )
+
+but mostly projects use (Java 11)
+
+we will download jdk 11 
+
+Product/file description	File size	Download
+x64 Installer				141.70 MB	jdk-11.0.23_windows-x64_bin.exe
+
+download the below .exe file 
+
+*************************
+java configuration
+*************************
+
+
+Variable Name   JAVA_HOME 
+
+Variable value  C:\Program Files\Java\jdk-11
+
+path C:\Program Files\Java\jdk-11\bin
+
+??????????????????????????????????????????????????????????????????????
+Assignment -1 
+
+Complete the jdk installation and send screenshots of jdk-11 folder 
+
+and cmd java -version results to below email id 
+
+
+riyazsirnotes@gmail.com
+
+???????????????????????????????????????????????????????????????????
+
+
+
+							jdk folders
+							
+							
+							
+			lib					bin	/tools				jre 				
+							
+							
+							
+lib : Library 
+
+It consists of predefined stuff to development of java application.
+
+								
+								lib
+								|
+							    APIs(Application Program Interface)
+								|
+							   jar (java Archive  ~ zip file)
+							   `|
+							   packages ( ~ folders)
+							    |
+						------------------
+				classes					 Interfaces
+				   |						 |
+			   --------------          -------------------
+			  |              |         |				  |
+			variables      methods    Fields or			  Abstract methods 
+									  Constants
+			
+							
+							
+							
+							
+							
+bin : binaries 
+
+tools for compiling , executing the java files
+
+e.g javac , java , jar , etc ..
+
+to compile we use javac tools
+
+syntax :
+
+javac FileName.java
+
+
+to execute or run we use java tools
+
+syntax :
+
+java FileName 
+
+
+-------------------------------------------------
+jre or jmods 
+
+java runtime environment
+
+jvm - java virtual machine 
+
+										jvm
+									
+									
+				CLSS					EE   					GC	
+
+
+							  Interpreter   JIT complier
+									
+									
+CLSS 
+
+Class Loader Subsystem 
+- Loading 
+- Linking
+- Initialization
+
+EE : Excution Engine 
+
+Interpreter : Byte code to Binary code 				
+
+JIT compiler : Just in time 
+
+GC : Garbage Collector 
+
+Mark 
+
+Sweep 
+
+------------------------------------------------------------------
+Structure of Java Program 
+-----------------------------------------------------------------
+4 sections 
+
+1. Documentation Sections or Comments Sections
+2. Package Section
+3. Import Section
+4. Class / Interface Section
+
+1. Documentation Section
+
+single line comment using //
+
+multiline comment using 
+/*  
+
+*/
