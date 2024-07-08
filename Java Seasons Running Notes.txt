@@ -207,3 +207,128 @@ multiline comment using
 /*  
 
 */
+----------------------------------------------------------------------
+
+2. Package Section
+
+Package means Folders 
+
+Package is for logical grouping of java file (class or interfaces)
+
+syntax :
+
+package packagename;
+
+if more packages 
+
+package pack1.pack2;
+
+package statement is the first statement in java program
+
+----------------------------------------------------------------------
+
+3.import section 
+
+
+syntax : 
+
+import packagename.*;  ==> this is not prefered , because more generic or poor readability
+
+import packagename.ClassName; ==> this is  prefered , because more readability
+
+----------------------------------------------------------------------
+
+4. Class / Interface Section
+
+
+access-specifier modifier class ClassName
+{
+
+variables;
+
+methods ;
+
+}
+
+access-specifier  or Access-label ( public  / protected /private / unspecicifed or <default> )
+
+ modifier
+ 
+ 
+--------------------------------------------------------------------------------
+
+main method :
+
+public static void main(String[] args)
+{
+
+
+}
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Java Naming Conventions 
+----------------------------------------------------------------------------------------
+
+
+
+
+							   packages ( ~ folders)
+							    |
+						------------------
+				classes					 Interfaces
+				   |						 |
+			   --------------          -------------------
+			  |              |         |				  |
+			variables      methods    Fields or			  Abstract methods 
+									  Constants
+
+
+
+packages : all lower case 
+
+e.g java.util
+
+e.g testscripts.regression 
+
+
+classes /Interfaces  :  Title Case  
+
+e.g Scanner
+
+e.g ChromeDriver
+
+variables : (Camel Case = Lower Case + Tiltle CasE)
+
+e.g x 
+
+e.g netSalary
+
+e.g costOfItem
+
+Methods or Abstract methods : (Camel Case = Lower Case + Tiltle CasE)
+
+they will ( 
+
+e.g main(
+
+e.g println(
+
+e.g nextInt(
+
+
+Fields or Constants : All upper case 
+
+
+e.g   PI =3.14 ;
+
+e.g MAX_LIMIT=10000;
+
+
+
+
+
+
+
+
+
